@@ -48,24 +48,24 @@ public class Pet {
   
         // toString method 
         public String toString(){
-          String state = "Pet[" + name + "," age + "," weight + "," type "," sterile + "]";
+          String state = "Pet[" + name + "," + age + "," + weight + "," + type + "," + sterile + "]";
           return state; 
         }
       
         public void setName(String newName){
           this.name = newName;
         }
-        public void setAge (Int newAge){
-          this.name = newAge; 
+        public void setAge (int newAge){
+          this.age = newAge; 
        }
         public void setWeight (double newWeight){
-          this.name = newWeight; 
+          this.weight = newWeight; 
         }
-        public void setType (String newtype ){
-          this.name = newType; 
+        public void setType (String newType ){
+          this.type = newType; 
         }
         public void setSterile (boolean newSterile){
-          this.name = newSterile 
+          this.sterile = newSterile; 
         }
 
         
